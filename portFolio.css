@@ -1,0 +1,117 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: paleturquoise; 
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+.container1 {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    background-color: grey;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+header h1 {
+    margin: 0;
+}
+
+.tagline {
+    font-style: italic;
+}
+
+section {
+    padding: 40px 0;
+}
+
+#about img {
+    max-width: 100%;
+    border-radius: 50%;
+}
+
+.bio {
+    margin-top: 20px;
+}
+
+#skills ul {
+    list-style: none;
+    padding: 0;
+}
+
+#skills li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.project img {
+    max-width: 100%;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+}
+#skills ul {
+    list-style: none;
+    padding: 0;
+}
+
+#skills li {
+    display: inline-block;
+    margin-right: 20px;
+    color: #fff; /* Default text color */
+}
+
+/* Apply specific colors to individual skills */
+#skills li:nth-child(1) {
+    color: #E44D26; /* HTML5 color */
+}
+
+#skills li:nth-child(2) {
+    color: #ab13d5; /* CSS3 color */
+}
+
+#skills li:nth-child(3) {
+    color: #b29b07; /* JavaScript color */
+}
+
+#skills li:nth-child(4) {
+    color: #0a36e8; /* Responsive Web Design color */
+}
+#skills li:nth-child(5) {
+    color: #ef2cb5; /* Responsive Web Design color */
+}
+#skills li:nth-child(6) {
+    color: #930cb9; /* CSS3 color */
+}
+
+#skills li:nth-child(7) {
+    color: #b29b07; /* JavaScript color */
+}
+
+#skills li:nth-child(8) {
+    color: #0a36e8; /* Responsive Web Design color */
+}
+#skills li:nth-child(9) {
+    color: #ef2cb5; /* Responsive Web Design color */
+}
